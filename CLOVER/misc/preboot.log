@@ -1,0 +1,347 @@
+0:100  0:100  MemLog inited, TSC freq: 1797099200
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  CloverX64 : Image base = 0x73D5F000
+0:100  0:000  
+0:100  0:000  Now is 05.10.2021,  13:41:52 (GMT)
+0:100  0:000  Starting Clover revision: 5128 (master, commit a9778cd8d) on INSYDE Corp. EFI
+0:100  0:000  Build id: 20210106115102-a9778cd-5128-dirty
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:101  0:001  SimpleTextEx Status=Success
+0:101  0:000  === [ GetDefaultSettings ] ======================
+0:101  0:000  === [ Get Smbios ] ==============================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 2
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = Micron
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 186BD9B3
+0:101  0:000  SmbiosTable.Type17->PartNumber = 4ATF51264HZ-2G3B1   
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:101  0:000  SmbiosTable.Type17->Size = 4096MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:101  0:000  SmbiosTable.Type17->Vendor = 86D3
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:101  0:000  SmbiosTable.Type17->PartNumber = SP004GBSFU240C02    
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'Aspire E5-476G' with board 'AntMan_SK'
+0:101  0:000  === [ GetCPUProperties ] ========================
+0:101  0:000  CPU Vendor = 756E6547 Model=806EA
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000   TSC/CCC Information Leaf:
+0:101  0:000    numerator     : 150
+0:101  0:000    denominator   : 2
+0:101  0:000   Calibrated ARTFrequency: 23961322
+0:101  0:000   Rounded ARTFrequency: 24000000
+0:101  0:000  MSR 0xE2 before patch 7E008006
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              0004043D_F1011200
+0:101  0:000  corrected FLEX_RATIO = 0
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 189 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 18.0/4
+0:101  0:000  Turbo: 34/34/34/34
+0:101  0:000  Features: 0x77FAFBBFBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 3400 MHz
+0:101  0:000  TSC: 3400 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ==============================
+0:101  0:000  GOP found at: 
+0:101  0:000  PCI (00|00:00.00) : 8086 5914 class=060000
+0:101  0:000  PCI (00|00:02.00) : 8086 5917 class=030000
+0:101  0:000   - GFX: Model=Intel UHD Graphics 620 (Intel)
+0:101  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:101  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:101  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:101  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:101  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:101  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:101  0:000  PCI (00|01:00.00) : 10DE 1D10 class=030200
+0:101  0:000  PCI (00|00:1D.00) : 8086 9D18 class=060400
+0:101  0:000  PCI (00|00:1D.02) : 8086 9D1A class=060400
+0:101  0:000  PCI (00|03:00.00) : 8086 24FB class=028000
+0:101  0:000   - WIFI: Vendor= Intel
+0:101  0:000  PCI (00|00:1D.03) : 8086 9D1B class=060400
+0:101  0:000  PCI (00|04:00.00) : 10EC 8168 class=020000
+0:101  0:000   - LAN: 0 Vendor=Realtek
+0:101  0:000  PCI (00|00:1F.00) : 8086 9D4E class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:101  0:000  PCI (00|00:1F.03) : 8086 9D71 class=040300
+0:101  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:101  0:000  Clover load options size = 0 bytes
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Aspire E5-476G--00-00-00-00-00-00'. Dir doesn't exist.
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\AntMan_SK\UEFI'. Dir doesn't exist.
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Aspire E5-476G'. Dir doesn't exist.
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\Aspire E5-476G-3400'. Dir doesn't exist.
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\AntMan_SK'. Dir doesn't exist.
+0:102  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\AntMan_SK-3400'. Dir doesn't exist.
+0:103  0:000  Using config.plist at path: \EFI\CLOVER
+0:103  0:000  \EFI\CLOVER\config.plist  loaded: Success
+0:108  0:004  === [ GetListOfThemes ] =========================
+0:109  0:000  - [00]: random
+0:109  0:000  - [00]: embedded
+0:109  0:000  === [ Found config plists ] =====================
+0:110  0:000  - config.plist
+0:110  0:000  === [ GetEarlyUserSettings ] ====================
+0:110  0:000  timeout set to 5
+0:110  0:000  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+0:110  0:000  KernelToPatch: 4 requested
+0:110  0:000   - [00]: Disable panic kext logging on 10.14 Release kernel :: MatchOS: 10.14 :: data len: 6
+0:110  0:000   - [01]: Disable panic kext logging on 10.13 Release kernel :: MatchOS: 10.13 :: data len: 6
+0:110  0:000   - [02]: Lapic panic patch example :: MatchOS: All :: data len: 12
+0:110  0:000   - [03]: Symbolic patch example got lapic panic :: MatchOS: All :: data len: 12
+0:110  0:000  Default theme: Clovy
+0:110  0:000  === [ LoadDrivers ] =============================
+0:111  0:001  Loading HFSPlus.efi  status=Success
+0:113  0:001   - driver needs connecting
+0:113  0:000  Loading ApfsDriverLoader.efi  status=Success
+0:115  0:001   - driver needs connecting
+0:115  0:000  2 drivers needs connecting ...
+0:115  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:115  0:000  HFS+ driver loaded
+0:115  0:000  APFS driver loaded
+0:115  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:366  0:251  === [ InitScreen ] ==============================
+0:366  0:000  Console modes reported: 7, available modes:
+0:366  0:000   - [01]: 80x25
+0:366  0:000   - [02]: 80x50
+0:366  0:000   - [03]: 80x25
+0:366  0:000   - [04]: 240x56 (current mode)
+0:366  0:000   - [05]: 100x31
+0:366  0:000   - [06]: 128x40
+0:366  0:000   - [07]: 160x53
+0:366  0:000  SetScreenResolution: 1920x1080 - already set
+0:366  0:000  SetScreenResolution: 1920x1080 - already set
+0:367  0:000  === [ GetMacAddress ] ===========================
+0:367  0:000   get legacy LAN MAC, 1 card found
+0:367  0:000  Legacy MAC address of LAN #0= D8:C4:97:52:4A:9D:
+0:367  0:000  === [ ScanSPD ] =================================
+0:367  0:000  Scanning SMBus [8086:9D23], mmio: 0xB422E004, ioport: 0x5040, hostc: 0x1
+0:385  0:018  Slot: 0 Type 26 4096MB 2400MHz Vendor=Micron Technology PartNo=4ATF51264HZ-2G3B1 SerialNo=186BD9B3
+0:404  0:018  Slot: 2 Type 26 4096MB 2400MHz Vendor=Silicon Power Computer & Communications PartNo=SP004GBSFU240C02 SerialNo=00000000
+0:405  0:000  === [ GetAcpiTablesList ] =======================
+0:405  0:000  Get Acpi Tables List from RSDT:
+0:405  0:000   - [00]: FACP  ACRPRDCT len=268
+0:405  0:000   - [01]: UEFI  ACRPRDCT len=66
+0:405  0:000   - [02]: SSDT  ACRPRDCT len=1219
+0:405  0:000   - [03]: TPM2  ACRPRDCT len=52
+0:405  0:000   - [04]: SSDT  ACRPRDCT len=2060
+0:405  0:000   - [05]: ASPT  ACRPRDCT len=52
+0:405  0:000   - [06]: DBGP  ACRPRDCT len=52
+0:405  0:000   - [07]: APIC  ACRPRDCT len=188
+0:405  0:000   - [08]: SSDT  ACRPRDCT len=444
+0:405  0:000   - [09]: WSMT  ACRPRDCT len=40
+0:405  0:000   - [10]: SSDT  ACRPRDCT len=838
+0:405  0:000   - [11]: DBGP  ACRPRDCT len=52
+0:405  0:000   - [12]: SSDT  ACRPRDCT len=13218
+0:405  0:000   - [13]: BGRT  ACRPRDCT len=56
+0:405  0:000   - [14]: SSDT  ACRPRDCT len=22138
+0:405  0:000   - [15]: SSDT  ACRPRDCT len=12671
+0:405  0:000   - [16]: BOOT  ACRPRDCT len=40
+0:405  0:000   - [17]: MCFG  ACRPRDCT len=60
+0:405  0:000   - [18]: SSDT  ACRPRDCT len=671
+0:405  0:000   - [19]: DBG2  ACRPRDCT len=84
+0:405  0:000   - [20]: DMAR  ACRPRDCT len=204
+0:405  0:000   - [21]: UEFI  ACRPRDCT len=566
+0:405  0:000   - [22]: ASF!  ACRPRDCT len=165
+0:405  0:000   - [23]: LPIT  ACRPRDCT len=148
+0:405  0:000   - [24]: SSDT  ACRPRDCT len=3806
+0:405  0:000   - [25]: SSDT  ACRPRDCT len=70
+0:405  0:000   - [26]: SSDT  ACRPRDCT len=1310
+0:405  0:000   - [27]: HPET  ACRPRDCT len=56
+0:405  0:000   - [28]: FPDT  ACRPRDCT len=68
+0:405  0:000  Calibrated TSC Frequency = 1797099200 = 1797MHz
+0:405  0:000  === [ GetUserSettings ] =========================
+0:406  0:000  Add 18 devices (kTagTypeDict):
+0:406  0:000  USB FixOwnership: yes
+0:406  0:000  Dropping 4 tables:
+0:406  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:406  0:000  ----
+0:406  0:000           - set table: 52414D44,                0 to drop: yes
+0:406  0:000   - [01]: Drop table  signature="SSDT" (54445353)
+0:406  0:000   table-id="CpuPm" (      6D50757043)
+0:406  0:000  ----
+0:406  0:000           - set table: 54445353,       6d50757043 to drop: no
+0:406  0:000   - [02]: Drop table  signature="SSDT" (54445353)
+0:406  0:000   table-id="Cpu0Ist" (  74734930757043)
+0:406  0:000  ----
+0:406  0:000           - set table: 54445353,   74734930757043 to drop: no
+0:406  0:000   - [03]: Drop table  signature="BGRT" (54524742)
+0:406  0:000  ----
+0:406  0:000           - set table: 54524742,                0 to drop: yes
+0:406  0:000   - final DSDT Fix mask=1FE73000
+0:406  0:000  Devices to rename 1
+0:406  0:000  PXSX:RP01:PCI0:#_SB:->will be renamed to ARPT
+0:406  0:000  Using ProductName from config: MacBookPro15,4
+0:406  0:000  Using latest BiosVersion from config
+0:406  0:000  BiosVersion: MBP154.88Z.F000.B00.2101062059
+0:406  0:000  BiosReleaseDate: 01/06/2021
+0:406  0:000  Using latest EfiVersion from config: 1554.80.3.0.0
+0:406  0:000  Using FirmwareFeatures from config: 0xFD8FF426
+0:406  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+0:406  0:000  Board-ID set from config as Mac-53FDB3D8DB8CA971
+0:406  0:000  BoardType: 0xA
+0:406  0:000  ChassisType: 0x9
+0:406  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+0:406  0:000  === [ Found DSDT tables ] =======================
+0:406  0:000  === [ InitKextList ] ============================
+0:408  0:002  Added Kext=Other\RealtekRTL8100.kext
+0:409  0:001  Added Kext=Other\Lilu.kext
+0:410  0:001  Added Kext=Other\AirPortOpenBSD.kext
+0:412  0:001  Added Kext=Other\itlwm.kext
+0:427  0:014  Added Kext=Other\AppleALC.kext
+0:429  0:002  Added Kext=Other\IntelBluetoothFirmware.kext
+0:430  0:001  Added Kext=Other\WhateverGreen.kext
+0:432  0:001  Added Kext=Other\SMCBatteryManager.kext
+0:432  0:000  Added Kext=Other\CPUFriendDataProvider.kext
+0:434  0:001  Added Kext=Other\RealtekRTL8111.kext
+0:435  0:001  Added Kext=Other\CPUFriend.kext
+0:435  0:000  Added Kext=Other\AirportItlwm.kext
+0:437  0:001  Added Kext=Other\VerbStub.kext
+0:437  0:000  Added Kext=Other\IntelBluetoothInjector.kext
+0:439  0:001  Added Kext=Other\VoodooI2CHID.kext
+0:440  0:001  Added Kext=Other\VoodooI2CELAN.kext
+0:442  0:001  Added Kext=Other\VirtualSMC.kext
+0:443  0:001  Added Kext=Other\VoodooPS2Controller.kext
+0:450  0:006  Added Kext=Other\USBPorts.kext
+0:453  0:003  Added Kext=Other\VoodooI2C.kext
+0:458  0:004  === [ ScanVolumes ] =============================
+0:458  0:000  Found 17 volumes with blockIO
+0:458  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+0:459  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)
+0:460  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)
+0:488  0:028          Result of bootcode detection: bootable unknown (legacy)
+0:488  0:000            label : EFI
+0:488  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,1676D1AF-5F44-4911-B04D-FC3A8D65882B,0x100800,0x124F8000)
+0:488  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,83D1821D-3497-4259-AC09-FD2E35196FEE,0x3A3B4800,0x3A352000)
+0:488  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+0:488  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(1,GPT,6A64D58F-84C2-4084-8927-AB6A364BC5F4,0x28,0x64000)
+0:491  0:003          Result of bootcode detection: bootable unknown (legacy)
+0:493  0:001            label : EFI
+0:493  0:000          This is SelfVolume !!
+0:493  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)
+0:494  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:494  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)
+0:494  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:494  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(1,GPT,DD5AA275-58CC-0825-529B-5682C5DBCA7E,0x800,0x1E67F58)
+0:495  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:495  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,334D9360-7286-132D-A990-2925CCE9566C,0x1E68758,0x10000)
+0:495  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:504  0:009            label : VTOYEFI
+0:504  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,34719A34D4DF3F49A725C765F07D6B6D)
+0:504  0:000            apfsFileSystemUUID=349A7134-DFD4-493F-A725-C765F07D6B6D, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0x10
+0:505  0:000            label : Preboot
+0:505  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C867245B8386924586D41D6CCD1E75EA)
+0:505  0:000            apfsFileSystemUUID=5B2467C8-8683-4592-86D4-1D6CCD1E75EA, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0x40
+0:532  0:026            label : MACOS - Data
+0:532  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,B38F862541F8DA4EBE32B603BCC5BE1F)
+0:532  0:000            apfsFileSystemUUID=25868FB3-F841-4EDA-BE32-B603BCC5BE1F, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0xc0
+0:533  0:001            label : Update
+0:533  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6CC1770CDDC3EE449CECEC70EE25D082)
+0:533  0:000            apfsFileSystemUUID=0C77C16C-C3DD-44EE-9CEC-EC70EE25D082, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0x1
+0:541  0:007            label : MACOS
+0:541  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F7395AFEDB19014B9DD64CEFE0DBA0B2)
+0:541  0:000            apfsFileSystemUUID=FE5A39F7-19DB-4B01-9DD6-4CEFE0DBA0B2, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0x4
+0:541  0:000            label : Recovery
+0:541  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D6537C5F12BE4846BFC8462298EC8E87)
+0:541  0:000            apfsFileSystemUUID=5F7C53D6-BE12-4648-BFC8-462298EC8E87, ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589, ApfsRole=0x8
+0:541  0:000            label : VM
+0:541  0:000  No AudioIoProtocols, status=Not Found
+0:541  0:000  === [ InitXTheme ] ==============================
+0:541  0:000  use Daylight theme
+0:541  0:000   using embedded theme
+0:554  0:013  sound play end with status=Device Error
+0:555  0:000  Using embedded font
+0:555  0:000  theme inited
+0:555  0:000  Chosen embedded theme
+0:555  0:000  found boot-args in NVRAM:-v keepsyms=1debug=0x100 alcid=27, size=34
+0:555  0:000  ...found arg:-v
+0:555  0:000  ...adding arg:-v
+0:555  0:000  ...found arg:keepsyms=1debug=0x100
+0:555  0:000  ...adding arg:keepsyms=1debug=0x100
+0:555  0:000  ...found arg:alcid=27
+0:555  0:000  after NVRAM boot-args=keepsyms=1 alcid=27 -v keepsyms=1debug=0x100 
+0:555  0:000  === [ Dump SMC keys from NVRAM ] ================
+0:555  0:000  no AppleSMC protocol
+0:574  0:019  === [ ScanLoader ] ==============================
+0:574  0:000  - [02]: 'EFI'
+0:580  0:006    found entry ubuntu,linux
+0:580  0:000      AddLoaderEntry for Volume Name=EFI, idx=0
+0:580  0:000   linux image not found
+0:580  0:000      IconName=linux comma=-1 size=5
+0:580  0:000      Full=linux
+0:581  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)\EFI\ubuntu\grubx64.efi'
+0:581  0:000      AddLoaderEntry for Volume Name=EFI, idx=1
+0:581  0:000      IconName=unknown comma=-1 size=7
+0:581  0:000      Full=unknown
+0:581  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)\EFI\BOOT\BOOTX64.efi'
+0:581  0:000  - [06]: 'EFI'
+0:585  0:004      AddLoaderEntry for Volume Name=EFI, idx=2
+0:585  0:000      IconName=unknown comma=-1 size=7
+0:585  0:000      Full=unknown
+0:585  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(1,GPT,6A64D58F-84C2-4084-8927-AB6A364BC5F4,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+0:585  0:000  - [10]: 'VTOYEFI'
+0:589  0:003      AddLoaderEntry for Volume Name=VTOYEFI, idx=3
+0:589  0:000      IconName=unknown comma=-1 size=7
+0:589  0:000      Full=unknown
+0:589  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x0,0x0)\HD(2,GPT,334D9360-7286-132D-A990-2925CCE9566C,0x1E68758,0x10000)\EFI\BOOT\BOOTX64.efi'
+0:589  0:000  - [11]: 'Preboot'
+0:591  0:002  contentDetails name:MACOS
+0:592  0:000      AddLoaderEntry for Volume Name=Preboot, idx=4
+0:592  0:000      ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589
+0:592  0:000      ApfsFileSystemUUID=349A7134-DFD4-493F-A725-C765F07D6B6D
+0:592  0:000      APFSTargetUUID=5B2467C8-8683-4592-86D4-1D6CCD1E75EA
+0:593  0:001      hibernated: set as never
+0:593  0:000      IconName=bigsur,mac comma=6 size=10
+0:593  0:000      first=os_bigsur
+0:593  0:000      Second=os_mac
+0:593  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,34719A34D4DF3F49A725C765F07D6B6D)\5B2467C8-8683-4592-86D4-1D6CCD1E75EA\System\Library\CoreServices\boot.efi'
+0:593  0:000  - [12]: 'MACOS - Data'
+0:596  0:003  - [13]: 'Update'
+0:597  0:000  - [14]: 'MACOS'
+0:615  0:018      AddLoaderEntry for Volume Name=MACOS, idx=5
+0:615  0:000      ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589
+0:615  0:000      ApfsFileSystemUUID=0C77C16C-C3DD-44EE-9CEC-EC70EE25D082
+0:616  0:000      hibernated: set as never
+0:616  0:000      IconName=bigsur,mac comma=6 size=10
+0:616  0:000      first=os_bigsur
+0:616  0:000      Second=os_mac
+0:616  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6CC1770CDDC3EE449CECEC70EE25D082)\System\Library\CoreServices\boot.efi'
+0:616  0:000  - [15]: 'Recovery'
+0:617  0:000  contentDetails name:MACOS
+0:618  0:001      AddLoaderEntry for Volume Name=Recovery, idx=6
+0:618  0:000      ApfsContainerUUID=CCCAE217-0D6E-48ED-BB6F-1D2932B8E589
+0:618  0:000      ApfsFileSystemUUID=FE5A39F7-19DB-4B01-9DD6-4CEFE0DBA0B2
+0:618  0:000      APFSTargetUUID=5B2467C8-8683-4592-86D4-1D6CCD1E75EA
+0:618  0:000      IconName=bigsur,mac comma=6 size=10
+0:618  0:000      first=os_bigsur
+0:618  0:000      Second=os_mac
+0:618  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x0,0x0)\HD(2,GPT,2ABAAFD4-2972-4570-BC31-ACEFF63ED5EC,0x64028,0xDF33FB0)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F7395AFEDB19014B9DD64CEFE0DBA0B2)\5B2467C8-8683-4592-86D4-1D6CCD1E75EA\BaseSystem.dmg'
+0:618  0:000  - [16]: 'VM'
+0:619  0:000  Move recovery entry 6 after preboot 4
+0:619  0:000  Scanning legacy ...
+0:619  0:000  === [ AddCustomTool ] ===========================
+0:620  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+0:620  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)\EFI\ubuntu\grubx64.efi
+0:620  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)'
+0:620  0:000    - LoaderPath: 'EFI\ubuntu\grubx64.efi'
+0:620  0:000    - Guid = 03D7971D-14CE-4C55-8916-6FC2ABA2C153
+0:620  0:000  === [ FindStartupDiskVolume ] ===================
+0:620  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)
+0:620  0:000     - searching for that partition and loader 'EFI\ubuntu\grubx64.efi'
+0:620  0:000    checking 'PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0x0,0x0)/HD(1,GPT,03D7971D-14CE-4C55-8916-6FC2ABA2C153,0x800,0x100000)'
+0:620  0:000     'EFI\ubuntu\grubx64.efi'
+0:620  0:000      - found entry 0. 'Boot Ubuntu Linux from EFI', Volume 'EFI', 'EFI\ubuntu\grubx64.efi'
+0:620  0:000  Boot redirected to Entry 0. 'Boot Ubuntu Linux from EFI'
+0:620  0:000  BannerPlace at Clear Screen [896,224]
+0:662  0:042  AnimeRun=0
+0:709  0:047  GUI ready
